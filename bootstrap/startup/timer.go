@@ -18,7 +18,7 @@ package startup
 import (
 	"time"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/environment"
+	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/environment"
 )
 
 // Timer contains references to dependencies required by the startup timer implementation.

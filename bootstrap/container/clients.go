@@ -16,9 +16,9 @@
 package container
 
 import (
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/interfaces"
+	"github.com/agile-edgex/go-mod-core-contracts/v3/clients/interfaces"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
+	"github.com/agile-edgex/go-mod-bootstrap/v3/di"
 )
 
 // EventClientName contains the name of the EventClient's implementation in the DIC.

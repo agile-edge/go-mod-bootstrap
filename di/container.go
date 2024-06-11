@@ -21,7 +21,7 @@
 //
 //	import (
 //		"fmt"
-//		"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
+//		"github.com/agile-edgex/go-mod-bootstrap/v3/di"
 //	)
 //
 //	type foo struct {

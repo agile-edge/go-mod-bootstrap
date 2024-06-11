@@ -26,17 +26,17 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/environment"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/flags"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/startup"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/config"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
-	"github.com/edgexfoundry/go-mod-configuration/v3/configuration"
-	"github.com/edgexfoundry/go-mod-configuration/v3/configuration/mocks"
-	"github.com/edgexfoundry/go-mod-configuration/v3/pkg/types"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
+	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/container"
+	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/environment"
+	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/flags"
+	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/startup"
+	"github.com/agile-edgex/go-mod-bootstrap/v3/config"
+	"github.com/agile-edgex/go-mod-bootstrap/v3/di"
+	"github.com/agile-edgex/go-mod-configuration/v3/configuration"
+	"github.com/agile-edgex/go-mod-configuration/v3/configuration/mocks"
+	"github.com/agile-edgex/go-mod-configuration/v3/pkg/types"
+	"github.com/agile-edgex/go-mod-core-contracts/v3/clients/logger"
+	"github.com/agile-edgex/go-mod-core-contracts/v3/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -411,8 +411,8 @@ func TestGetConfigFileLocation(t *testing.T) {
 			name:     "valid - url",
 			dir:      "",
 			profile:  "",
-			path:     "https://raw.githubusercontent.com/edgexfoundry/go-mod-bootstrap/main/bootstrap/config/testdata/configuration.yaml",
-			expected: "https://raw.githubusercontent.com/edgexfoundry/go-mod-bootstrap/main/bootstrap/config/testdata/configuration.yaml",
+			path:     "https://raw.githubusercontent.com/agile-edgex/go-mod-bootstrap/main/bootstrap/config/testdata/configuration.yaml",
+			expected: "https://raw.githubusercontent.com/agile-edgex/go-mod-bootstrap/main/bootstrap/config/testdata/configuration.yaml",
 		},
 		{
 			name:     "invalid - url",

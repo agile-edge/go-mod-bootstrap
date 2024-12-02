@@ -11,9 +11,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/agile-edgex/go-mod-core-contracts/v3/clients/logger"
-	"github.com/agile-edgex/go-mod-core-contracts/v3/common"
-	"github.com/agile-edgex/go-mod-core-contracts/v3/models"
+	"github.com/agile-edge/go-mod-core-contracts/v3/clients/logger"
+	"github.com/agile-edge/go-mod-core-contracts/v3/common"
+	"github.com/agile-edge/go-mod-core-contracts/v3/models"
 
 	"github.com/google/uuid"
 	"github.com/labstack/echo/v4"

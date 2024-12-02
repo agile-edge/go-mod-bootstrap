@@ -23,5 +23,5 @@ import (
 type foo struct{}
 
 func TestTypeInstanceToNameReturnsExpectedPackagePlusTypeName(t *testing.T) {
-	assert.Equal(t, "github.com/agile-edgex/go-mod-bootstrap/v3/di.foo", TypeInstanceToName(foo{}))
+	assert.Equal(t, "github.com/agile-edge/go-mod-bootstrap/v3/di.foo", TypeInstanceToName(foo{}))
 }

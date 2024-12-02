@@ -15,9 +15,9 @@
 package container
 
 import (
-	"github.com/agile-edgex/go-mod-secrets/v3/pkg/token/authtokenloader"
+	"github.com/agile-edge/go-mod-secrets/v3/pkg/token/authtokenloader"
 
-	"github.com/agile-edgex/go-mod-bootstrap/v3/di"
+	"github.com/agile-edge/go-mod-bootstrap/v3/di"
 )
 
 //// FileIoPerformerInterfaceName contains the name of the fileioperformer.FileIoPerformer implementation in the DIC.

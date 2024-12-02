@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/agile-edgex/go-mod-bootstrap/v3/config"
+	"github.com/agile-edge/go-mod-bootstrap/v3/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

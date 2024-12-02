@@ -21,18 +21,18 @@ import (
 	"sync"
 	"time"
 
-	clients "github.com/agile-edgex/go-mod-core-contracts/v3/clients/http"
-	"github.com/agile-edgex/go-mod-core-contracts/v3/clients/interfaces"
-	"github.com/agile-edgex/go-mod-core-contracts/v3/clients/logger"
-	"github.com/agile-edgex/go-mod-core-contracts/v3/common"
-	clientsMessaging "github.com/agile-edgex/go-mod-messaging/v3/clients"
-	"github.com/agile-edgex/go-mod-registry/v3/pkg/types"
-	"github.com/agile-edgex/go-mod-registry/v3/registry"
+	clients "github.com/agile-edge/go-mod-core-contracts/v3/clients/http"
+	"github.com/agile-edge/go-mod-core-contracts/v3/clients/interfaces"
+	"github.com/agile-edge/go-mod-core-contracts/v3/clients/logger"
+	"github.com/agile-edge/go-mod-core-contracts/v3/common"
+	clientsMessaging "github.com/agile-edge/go-mod-messaging/v3/clients"
+	"github.com/agile-edge/go-mod-registry/v3/pkg/types"
+	"github.com/agile-edge/go-mod-registry/v3/registry"
 
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/secret"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/startup"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/di"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/container"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/secret"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/startup"
+	"github.com/agile-edge/go-mod-bootstrap/v3/di"
 )
 
 // ClientsBootstrap contains data to boostrap the configured clients

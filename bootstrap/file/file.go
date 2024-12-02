@@ -7,9 +7,9 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/environment"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/interfaces"
-	"github.com/agile-edgex/go-mod-core-contracts/v3/clients/logger"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/environment"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/interfaces"
+	"github.com/agile-edge/go-mod-core-contracts/v3/clients/logger"
 )
 
 func Load(path string, provider interfaces.SecretProvider, lc logger.LoggingClient) ([]byte, error) {

@@ -23,20 +23,20 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/config"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/environment"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/flags"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/interfaces"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/registration"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/secret"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/startup"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/di"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/config"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/container"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/environment"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/flags"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/interfaces"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/registration"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/secret"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/startup"
+	"github.com/agile-edge/go-mod-bootstrap/v3/di"
 
-	"github.com/agile-edgex/go-mod-registry/v3/registry"
+	"github.com/agile-edge/go-mod-registry/v3/registry"
 
-	"github.com/agile-edgex/go-mod-core-contracts/v3/clients/logger"
-	"github.com/agile-edgex/go-mod-core-contracts/v3/models"
+	"github.com/agile-edge/go-mod-core-contracts/v3/clients/logger"
+	"github.com/agile-edge/go-mod-core-contracts/v3/models"
 )
 
 // Deferred defines the signature of a function returned by RunAndReturnWaitGroup that should be executed via defer.

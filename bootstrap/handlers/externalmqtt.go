@@ -17,10 +17,10 @@ import (
 
 	mqtt "github.com/eclipse/paho.mqtt.golang"
 
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/messaging"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/startup"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/di"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/container"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/messaging"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/startup"
+	"github.com/agile-edge/go-mod-bootstrap/v3/di"
 )
 
 type ExternalMQTT struct {

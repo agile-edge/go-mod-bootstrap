@@ -24,16 +24,16 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/environment"
-	bootstrapConfig "github.com/agile-edgex/go-mod-bootstrap/v3/config"
-	"github.com/agile-edgex/go-mod-core-contracts/v3/clients/logger"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/environment"
+	bootstrapConfig "github.com/agile-edge/go-mod-bootstrap/v3/config"
+	"github.com/agile-edge/go-mod-core-contracts/v3/clients/logger"
 
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/interfaces"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/startup"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/di"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/container"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/interfaces"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/startup"
+	"github.com/agile-edge/go-mod-bootstrap/v3/di"
 
-	"github.com/agile-edgex/go-mod-secrets/v3/pkg/token/authtokenloader/mocks"
+	"github.com/agile-edge/go-mod-secrets/v3/pkg/token/authtokenloader/mocks"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

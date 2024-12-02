@@ -22,21 +22,21 @@ import (
 	"strings"
 	"time"
 
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/environment"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/config"
-	"github.com/agile-edgex/go-mod-core-contracts/v3/clients/logger"
-	"github.com/agile-edgex/go-mod-secrets/v3/pkg/types"
-	"github.com/agile-edgex/go-mod-secrets/v3/secrets"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/environment"
+	"github.com/agile-edge/go-mod-bootstrap/v3/config"
+	"github.com/agile-edge/go-mod-core-contracts/v3/clients/logger"
+	"github.com/agile-edge/go-mod-secrets/v3/pkg/types"
+	"github.com/agile-edge/go-mod-secrets/v3/secrets"
 	gometrics "github.com/rcrowley/go-metrics"
 
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/interfaces"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/startup"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/di"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/container"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/interfaces"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/startup"
+	"github.com/agile-edge/go-mod-bootstrap/v3/di"
 
-	"github.com/agile-edgex/go-mod-secrets/v3/pkg/token/authtokenloader"
-	"github.com/agile-edgex/go-mod-secrets/v3/pkg/token/fileioperformer"
-	"github.com/agile-edgex/go-mod-secrets/v3/pkg/token/runtimetokenprovider"
+	"github.com/agile-edge/go-mod-secrets/v3/pkg/token/authtokenloader"
+	"github.com/agile-edge/go-mod-secrets/v3/pkg/token/fileioperformer"
+	"github.com/agile-edge/go-mod-secrets/v3/pkg/token/runtimetokenprovider"
 )
 
 // secret service Metric Names

@@ -1,13 +1,13 @@
-module github.com/agile-edgex/go-mod-bootstrap/v3
+module github.com/agile-edge/go-mod-bootstrap/v3
 
 go 1.21
 
 require (
-	github.com/agile-edgex/go-mod-configuration/v3 v3.1.2
-	github.com/agile-edgex/go-mod-core-contracts/v3 v3.1.2
-	github.com/agile-edgex/go-mod-messaging/v3 v3.1.2
-	github.com/agile-edgex/go-mod-registry/v3 v3.1.2
-	github.com/agile-edgex/go-mod-secrets/v3 v3.1.2
+	github.com/agile-edge/go-mod-configuration/v3 v3.1.3
+	github.com/agile-edge/go-mod-core-contracts/v3 v3.1.3
+	github.com/agile-edge/go-mod-messaging/v3 v3.1.3
+	github.com/agile-edge/go-mod-registry/v3 v3.1.3
+	github.com/agile-edge/go-mod-secrets/v3 v3.1.3
 	github.com/eclipse/paho.mqtt.golang v1.4.3
 	github.com/google/uuid v1.3.1
 	github.com/hashicorp/go-multierror v1.1.1

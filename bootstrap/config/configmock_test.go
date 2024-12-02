@@ -17,7 +17,7 @@
 package config
 
 import (
-	"github.com/agile-edgex/go-mod-bootstrap/v3/config"
+	"github.com/agile-edge/go-mod-bootstrap/v3/config"
 )
 
 type WritableInfo struct {

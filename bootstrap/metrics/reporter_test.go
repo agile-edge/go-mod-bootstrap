@@ -18,21 +18,21 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/agile-edgex/go-mod-core-contracts/v3/common"
+	"github.com/agile-edge/go-mod-core-contracts/v3/common"
 	gometrics "github.com/rcrowley/go-metrics"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/agile-edgex/go-mod-core-contracts/v3/clients/logger"
-	"github.com/agile-edgex/go-mod-core-contracts/v3/dtos"
+	"github.com/agile-edge/go-mod-core-contracts/v3/clients/logger"
+	"github.com/agile-edge/go-mod-core-contracts/v3/dtos"
 
-	"github.com/agile-edgex/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/config"
-	"github.com/agile-edgex/go-mod-bootstrap/v3/di"
+	"github.com/agile-edge/go-mod-bootstrap/v3/bootstrap/container"
+	"github.com/agile-edge/go-mod-bootstrap/v3/config"
+	"github.com/agile-edge/go-mod-bootstrap/v3/di"
 
-	"github.com/agile-edgex/go-mod-messaging/v3/messaging/mocks"
-	"github.com/agile-edgex/go-mod-messaging/v3/pkg/types"
+	"github.com/agile-edge/go-mod-messaging/v3/messaging/mocks"
+	"github.com/agile-edge/go-mod-messaging/v3/pkg/types"
 )
 
 func TestNewMessageBusReporter(t *testing.T) {

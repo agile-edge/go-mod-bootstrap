@@ -44,17 +44,17 @@ func ManageHeader(next echo.HandlerFunc) echo.HandlerFunc {
 func LoggingMiddleware(lc logger.LoggingClient) echo.MiddlewareFunc {
 	return func(next echo.HandlerFunc) echo.HandlerFunc {
 		return func(c echo.Context) error {
-			if lc.LogLevel() == models.TraceLog {
+			if lc.LogLevel() == models.DebugLog {
 				r := c.Request()
 				begin := time.Now()
 				correlationId := FromContext(r.Context())
-				lc.Trace("Begin request", common.CorrelationHeader, correlationId, "path", r.URL.Path)
+				lc.Debug("Begin request", common.CorrelationHeader, correlationId, "path", r.URL.Path)
 				err := next(c)
 				if err != nil {
 					lc.Errorf("failed to add the middleware: %v", err)
 					return echo.NewHTTPError(http.StatusInternalServerError, err.Error())
 				}
-				lc.Trace("Response complete", common.CorrelationHeader, correlationId, "duration", time.Since(begin).String())
+				lc.Debug("Response complete", common.CorrelationHeader, correlationId, "duration", time.Since(begin).String())
 				return nil
 			}
 			return next(c)

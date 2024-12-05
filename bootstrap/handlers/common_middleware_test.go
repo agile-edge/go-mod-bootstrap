@@ -52,8 +52,8 @@ func TestLoggingMiddleware(t *testing.T) {
 	e := echo.New()
 	e.GET("/", handler)
 	lcMock := &mocks.LoggingClient{}
-	lcMock.On("Trace", "Begin request", common.CorrelationHeader, expectedCorrelationId, "path", "/")
-	lcMock.On("Trace", "Response complete", common.CorrelationHeader, expectedCorrelationId, "duration", mock.Anything)
+	lcMock.On("Debug", "Begin request", common.CorrelationHeader, expectedCorrelationId, "path", "/")
+	lcMock.On("Debug", "Response complete", common.CorrelationHeader, expectedCorrelationId, "duration", mock.Anything)
 	lcMock.On("LogLevel").Return("TRACE")
 	e.Use(LoggingMiddleware(lcMock))
 
@@ -65,8 +65,8 @@ func TestLoggingMiddleware(t *testing.T) {
 	res := httptest.NewRecorder()
 	e.ServeHTTP(res, req)
 
-	lcMock.AssertCalled(t, "Trace", "Begin request", common.CorrelationHeader, expectedCorrelationId, "path", "/")
-	lcMock.AssertCalled(t, "Trace", "Response complete", common.CorrelationHeader, expectedCorrelationId, "duration", mock.Anything)
+	lcMock.AssertCalled(t, "Debug", "Begin request", common.CorrelationHeader, expectedCorrelationId, "path", "/")
+	lcMock.AssertCalled(t, "Debug", "Response complete", common.CorrelationHeader, expectedCorrelationId, "duration", mock.Anything)
 	assert.Equal(t, http.StatusOK, res.Code)
 }
 

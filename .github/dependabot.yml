@@ -1,0 +1,10 @@
+version: 2
+updates:
+  # Maintain dependencies for Go modules
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "github.com/edgexfoundry/go-mod-core-contracts/*"
+      - dependency-name: "github.com/edgexfoundry/go-mod-messaging/*"

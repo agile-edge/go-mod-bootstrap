@@ -6,8 +6,8 @@
 package container
 
 import (
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/di"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/clients/interfaces"
+	"github.com/agile-edge/go-mod-bootstrap/v4/di"
+	"github.com/agile-edge/go-mod-core-contracts/v4/clients/interfaces"
 )
 
 // CommonClientName contains the name of the CommonClient instance in the DIC.

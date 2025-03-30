@@ -10,7 +10,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/config"
+	"github.com/agile-edge/go-mod-bootstrap/v4/config"
 
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"

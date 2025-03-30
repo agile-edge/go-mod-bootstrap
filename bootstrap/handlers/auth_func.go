@@ -18,8 +18,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/secret"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/di"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/secret"
+	"github.com/agile-edge/go-mod-bootstrap/v4/di"
 
 	"github.com/labstack/echo/v4"
 )

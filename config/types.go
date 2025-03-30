@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/common"
-	"github.com/edgexfoundry/go-mod-secrets/v4/pkg/types"
-	"github.com/edgexfoundry/go-mod-secrets/v4/secrets"
+	"github.com/agile-edge/go-mod-core-contracts/v4/common"
+	"github.com/agile-edge/go-mod-secrets/v4/pkg/types"
+	"github.com/agile-edge/go-mod-secrets/v4/secrets"
 )
 
 const (
@@ -208,7 +208,7 @@ func NewSecretStoreInfo(serviceKey string) SecretStoreInfo {
 			Protocol:        "https",
 			Host:            "localhost",
 			Port:            59841,
-			TrustDomain:     "edgexfoundry.org",
+			TrustDomain:     "agile-edge.org",
 			EndpointSocket:  "/tmp/edgex/secrets/spiffe/public/api.sock",
 			RequiredSecrets: "redisdb",
 		},

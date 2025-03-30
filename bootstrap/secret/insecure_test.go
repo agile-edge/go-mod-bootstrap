@@ -16,9 +16,9 @@ package secret
 
 import (
 	"fmt"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/config"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/di"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/config"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/container"
+	"github.com/agile-edge/go-mod-bootstrap/v4/di"
 	"github.com/stretchr/testify/mock"
 	"math"
 	"reflect"
@@ -27,14 +27,14 @@ import (
 	"testing"
 	"time"
 
-	bootstrapConfig "github.com/edgexfoundry/go-mod-bootstrap/v4/config"
+	bootstrapConfig "github.com/agile-edge/go-mod-bootstrap/v4/config"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/clients/logger"
+	"github.com/agile-edge/go-mod-core-contracts/v4/clients/logger"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	configurationMocks "github.com/edgexfoundry/go-mod-configuration/v4/configuration/mocks"
+	configurationMocks "github.com/agile-edge/go-mod-configuration/v4/configuration/mocks"
 )
 
 // mockObjects holds the various mocks needed for running these tests

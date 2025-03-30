@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/startup"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/di"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/container"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/startup"
+	"github.com/agile-edge/go-mod-bootstrap/v4/di"
 )
 
 // StartMessage contains references to dependencies required by the start message handler.

@@ -21,17 +21,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/environment"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/config"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/environment"
+	"github.com/agile-edge/go-mod-bootstrap/v4/config"
 	mock2 "github.com/stretchr/testify/mock"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/clients/logger"
+	"github.com/agile-edge/go-mod-core-contracts/v4/clients/logger"
 
-	"github.com/edgexfoundry/go-mod-secrets/v4/pkg"
-	mocks2 "github.com/edgexfoundry/go-mod-secrets/v4/pkg/token/authtokenloader/mocks"
-	runtimeTokenMock "github.com/edgexfoundry/go-mod-secrets/v4/pkg/token/runtimetokenprovider/mocks"
-	"github.com/edgexfoundry/go-mod-secrets/v4/secrets"
-	"github.com/edgexfoundry/go-mod-secrets/v4/secrets/mocks"
+	"github.com/agile-edge/go-mod-secrets/v4/pkg"
+	mocks2 "github.com/agile-edge/go-mod-secrets/v4/pkg/token/authtokenloader/mocks"
+	runtimeTokenMock "github.com/agile-edge/go-mod-secrets/v4/pkg/token/runtimetokenprovider/mocks"
+	"github.com/agile-edge/go-mod-secrets/v4/secrets"
+	"github.com/agile-edge/go-mod-secrets/v4/secrets/mocks"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

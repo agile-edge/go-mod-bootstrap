@@ -9,9 +9,9 @@ import (
 	"context"
 	stdErrs "errors"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/di"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/errors"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/container"
+	"github.com/agile-edge/go-mod-bootstrap/v4/di"
+	"github.com/agile-edge/go-mod-core-contracts/v4/errors"
 
 	"github.com/golang-jwt/jwt/v5"
 )

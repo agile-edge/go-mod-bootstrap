@@ -21,18 +21,18 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/common"
+	"github.com/agile-edge/go-mod-core-contracts/v4/clients/logger"
+	"github.com/agile-edge/go-mod-core-contracts/v4/common"
 
-	registryTypes "github.com/edgexfoundry/go-mod-registry/v4/pkg/types"
-	"github.com/edgexfoundry/go-mod-registry/v4/registry"
+	registryTypes "github.com/agile-edge/go-mod-registry/v4/pkg/types"
+	"github.com/agile-edge/go-mod-registry/v4/registry"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/interfaces"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/secret"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/startup"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/config"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/di"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/container"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/interfaces"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/secret"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/startup"
+	"github.com/agile-edge/go-mod-bootstrap/v4/config"
+	"github.com/agile-edge/go-mod-bootstrap/v4/di"
 )
 
 // createRegistryClient creates and returns a registry.Client instance.

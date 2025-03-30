@@ -8,9 +8,9 @@ package handlers
 import (
 	"fmt"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/interfaces"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/errors"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/interfaces"
+	"github.com/agile-edge/go-mod-core-contracts/v4/clients/logger"
+	"github.com/agile-edge/go-mod-core-contracts/v4/errors"
 
 	"github.com/labstack/echo/v4"
 )

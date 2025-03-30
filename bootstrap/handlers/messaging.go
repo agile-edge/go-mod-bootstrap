@@ -19,14 +19,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/edgexfoundry/go-mod-messaging/v4/messaging"
-	"github.com/edgexfoundry/go-mod-messaging/v4/pkg/types"
+	"github.com/agile-edge/go-mod-messaging/v4/messaging"
+	"github.com/agile-edge/go-mod-messaging/v4/pkg/types"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/container"
-	boostrapMessaging "github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/messaging"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/startup"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/config"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/di"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/container"
+	boostrapMessaging "github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/messaging"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/startup"
+	"github.com/agile-edge/go-mod-bootstrap/v4/config"
+	"github.com/agile-edge/go-mod-bootstrap/v4/di"
 )
 
 // MessagingBootstrapHandler fulfills the BootstrapHandler contract.  If creates and initializes the Messaging client

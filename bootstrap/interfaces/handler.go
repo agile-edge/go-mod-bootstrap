@@ -18,8 +18,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/startup"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/di"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/startup"
+	"github.com/agile-edge/go-mod-bootstrap/v4/di"
 )
 
 // BootstrapHandler defines the contract each bootstrap handler must fulfill.  Implementation returns true if the

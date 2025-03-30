@@ -27,18 +27,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/config"
-	"github.com/edgexfoundry/go-mod-secrets/v4/pkg"
+	"github.com/agile-edge/go-mod-bootstrap/v4/config"
+	"github.com/agile-edge/go-mod-secrets/v4/pkg"
 	gometrics "github.com/rcrowley/go-metrics"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/dtos/common"
+	"github.com/agile-edge/go-mod-core-contracts/v4/dtos/common"
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/clients/logger"
+	"github.com/agile-edge/go-mod-core-contracts/v4/clients/logger"
 
-	"github.com/edgexfoundry/go-mod-secrets/v4/pkg/token/authtokenloader"
-	"github.com/edgexfoundry/go-mod-secrets/v4/pkg/token/runtimetokenprovider"
-	"github.com/edgexfoundry/go-mod-secrets/v4/secrets"
+	"github.com/agile-edge/go-mod-secrets/v4/pkg/token/authtokenloader"
+	"github.com/agile-edge/go-mod-secrets/v4/pkg/token/runtimetokenprovider"
+	"github.com/agile-edge/go-mod-secrets/v4/secrets"
 )
 
 const (

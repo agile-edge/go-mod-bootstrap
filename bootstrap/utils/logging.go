@@ -2,7 +2,7 @@ package utils
 
 import (
 	"fmt"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/clients/logger"
+	"github.com/agile-edge/go-mod-core-contracts/v4/clients/logger"
 	"github.com/sirupsen/logrus"
 	"io"
 )

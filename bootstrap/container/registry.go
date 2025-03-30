@@ -15,9 +15,9 @@
 package container
 
 import (
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/di"
+	"github.com/agile-edge/go-mod-bootstrap/v4/di"
 
-	"github.com/edgexfoundry/go-mod-registry/v4/registry"
+	"github.com/agile-edge/go-mod-registry/v4/registry"
 )
 
 // RegistryClientInterfaceName contains the name of the registry.Client implementation in the DIC.

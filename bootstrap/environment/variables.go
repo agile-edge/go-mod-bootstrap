@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/utils"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/models"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/utils"
+	"github.com/agile-edge/go-mod-core-contracts/v4/clients/logger"
+	"github.com/agile-edge/go-mod-core-contracts/v4/models"
 
-	"github.com/edgexfoundry/go-mod-configuration/v4/pkg/types"
+	"github.com/agile-edge/go-mod-configuration/v4/pkg/types"
 )
 
 const (

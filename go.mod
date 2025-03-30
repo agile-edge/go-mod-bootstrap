@@ -1,14 +1,14 @@
-module github.com/edgexfoundry/go-mod-bootstrap/v4
+module github.com/agile-edge/go-mod-bootstrap/v4
 
 go 1.23
 
 require (
+	github.com/agile-edge/go-mod-configuration/v4 v4.0.1
+	github.com/agile-edge/go-mod-core-contracts/v4 v4.0.1
+	github.com/agile-edge/go-mod-messaging/v4 v4.0.1
+	github.com/agile-edge/go-mod-registry/v4 v4.0.1
+	github.com/agile-edge/go-mod-secrets/v4 v4.0.1
 	github.com/eclipse/paho.mqtt.golang v1.5.0
-	github.com/edgexfoundry/go-mod-configuration/v4 v4.0.1
-	github.com/edgexfoundry/go-mod-core-contracts/v4 v4.0.1
-	github.com/edgexfoundry/go-mod-messaging/v4 v4.0.1
-	github.com/edgexfoundry/go-mod-registry/v4 v4.0.1
-	github.com/edgexfoundry/go-mod-secrets/v4 v4.0.1
 	github.com/golang-jwt/jwt/v5 v5.2.1
 	github.com/google/uuid v1.6.0
 	github.com/hashicorp/go-multierror v1.1.1
@@ -120,5 +120,6 @@ require (
 	google.golang.org/grpc v1.70.0 // indirect
 	google.golang.org/protobuf v1.36.3 // indirect
 	gopkg.in/go-jose/go-jose.v2 v2.6.3 // indirect
+	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	nhooyr.io/websocket v1.8.17 // indirect
 )

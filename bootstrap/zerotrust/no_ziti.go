@@ -22,13 +22,13 @@ import (
 	"net/http"
 	"strings"
 
-	btConfig "github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/config"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/interfaces"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/startup"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/config"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/di"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/clients/logger"
+	btConfig "github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/config"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/container"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/interfaces"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/startup"
+	"github.com/agile-edge/go-mod-bootstrap/v4/config"
+	"github.com/agile-edge/go-mod-bootstrap/v4/di"
+	"github.com/agile-edge/go-mod-core-contracts/v4/clients/logger"
 )
 
 // HttpTransportFromService is the implementation for the case where the service is built with no_openziti flag.

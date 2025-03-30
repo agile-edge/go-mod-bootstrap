@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/clients/logger/mocks"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/errors"
+	"github.com/agile-edge/go-mod-core-contracts/v4/clients/logger/mocks"
+	"github.com/agile-edge/go-mod-core-contracts/v4/errors"
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/stretchr/testify/require"

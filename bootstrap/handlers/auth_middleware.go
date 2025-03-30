@@ -22,12 +22,12 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/handlers/headers"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/zerotrust"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/di"
-	dtoCommon "github.com/edgexfoundry/go-mod-core-contracts/v4/dtos/common"
-	edgexErr "github.com/edgexfoundry/go-mod-core-contracts/v4/errors"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/container"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/handlers/headers"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/zerotrust"
+	"github.com/agile-edge/go-mod-bootstrap/v4/di"
+	dtoCommon "github.com/agile-edge/go-mod-core-contracts/v4/dtos/common"
+	edgexErr "github.com/agile-edge/go-mod-core-contracts/v4/errors"
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"

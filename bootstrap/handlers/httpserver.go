@@ -26,14 +26,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/common"
-	commonDTO "github.com/edgexfoundry/go-mod-core-contracts/v4/dtos/common"
+	"github.com/agile-edge/go-mod-core-contracts/v4/clients/logger"
+	"github.com/agile-edge/go-mod-core-contracts/v4/common"
+	commonDTO "github.com/agile-edge/go-mod-core-contracts/v4/dtos/common"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/startup"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/zerotrust"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/di"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/container"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/startup"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/zerotrust"
+	"github.com/agile-edge/go-mod-bootstrap/v4/di"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

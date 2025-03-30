@@ -21,17 +21,17 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/bootstrap/interfaces"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/config"
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/di"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/container"
+	"github.com/agile-edge/go-mod-bootstrap/v4/bootstrap/interfaces"
+	"github.com/agile-edge/go-mod-bootstrap/v4/config"
+	"github.com/agile-edge/go-mod-bootstrap/v4/di"
 
-	"github.com/edgexfoundry/go-mod-messaging/v4/messaging"
-	"github.com/edgexfoundry/go-mod-messaging/v4/pkg/types"
+	"github.com/agile-edge/go-mod-messaging/v4/messaging"
+	"github.com/agile-edge/go-mod-messaging/v4/pkg/types"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/dtos"
+	"github.com/agile-edge/go-mod-core-contracts/v4/clients/logger"
+	"github.com/agile-edge/go-mod-core-contracts/v4/common"
+	"github.com/agile-edge/go-mod-core-contracts/v4/dtos"
 
 	"github.com/hashicorp/go-multierror"
 	gometrics "github.com/rcrowley/go-metrics"

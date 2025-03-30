@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	config "github.com/edgexfoundry/go-mod-bootstrap/v4/config"
+	config "github.com/agile-edge/go-mod-bootstrap/v4/config"
 
 	mock "github.com/stretchr/testify/mock"
 )

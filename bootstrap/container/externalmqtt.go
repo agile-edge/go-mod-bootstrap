@@ -8,7 +8,7 @@ package container
 import (
 	mqtt "github.com/eclipse/paho.mqtt.golang"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v4/di"
+	"github.com/agile-edge/go-mod-bootstrap/v4/di"
 )
 
 // ExternalMQTTMessagingClientName contains the name of the external messaging client instance in the DIC.
